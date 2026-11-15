@@ -87,13 +87,13 @@ iframe {
     <button onclick="document.getElementById('game').scrollIntoView({behavior:'smooth'})">
         PLAY NOW
     </button>
-    <button onclick="document.getElementById('game').requestFullscreen()">
+    <button onclick="document.getElementById('game-frame').requestFullscreen()">
         FULLSCREEN
     </button>
 </header>
 
 <div class="game-container" id="game">
-    <iframe src="game.html" title="DISCO DOOM Game" allowfullscreen></iframe>
+<iframe id="game-frame" src="game.html" title="DISCO DOOM Game" allowfullscreen></iframe>    
 </div>
 
 </body>
